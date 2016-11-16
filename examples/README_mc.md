@@ -1,16 +1,32 @@
 Object-Oriented Software Design for Financial Libraries
 =======================================================
 
+course:  Corso Alta Formazione Finanza Quantitativa, Milano 2016-17
+teacher: Andrea Pallavicini, a.pallavicini@imperial.ac.uk
+
+Content
+-------
+
+This directory contains the code for the "Monte Carlo" example presented in the slides.
+
+Project                               Slides
+
+naive                                 89
+clike                                 89
+oo_first                              93
+
 Software Requirements
 ---------------------
 
- - Visual Studio Express 2008 or greater.
- - CMake v2.6 or greater.
+Windows platform:
 
+ - Visual Studio Express 2005 version 8 or greater.
+ - CMake v2.6 or greater.
+ 
 How to build the projects
 -------------------------
 
-With Visual Studio:
+Windows platform:
 
 1. Run CMake GUI from Start menu.
 2. Click "Browse Source" button to select the folder containing al projects ("mc" folder)
@@ -19,10 +35,3 @@ With Visual Studio:
 5. Select your version of Visual Studio and select "Use default native compilers". Click "Finish" button and wait for configuration completes.
 6. Click "Generate" button.
 7. You can open the Visual Studio solution "mc.sln", you can find in the empty folder specified on step 3, and build project "ALL_BUILD".
-
-With MinGW (or any POSIX platform):
-
-1. Enter the directory containing al projects ("mc" folder) and create a new directory: $> mkdir build-msys
-2. Enter such new directory: $> cd build-msys
-3. Generate all makefiles (if the command fails repeat againg once more time): $> cmake .. -G'MSYS Makefiles'
-4. Compile all the projects with G++: $> make
