@@ -7,6 +7,7 @@
  */
 
 #include "RandVarNormal.h"
+#include <algorithm>
 #include <stdexcept>
 #include <cstdlib>
 #include <cmath>

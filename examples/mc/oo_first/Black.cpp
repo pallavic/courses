@@ -8,8 +8,9 @@
 
 #include "Black.h"
 #include "RandVarNormal.h"
-#include<stdexcept>
-#include<cmath>
+#include <algorithm>
+#include <stdexcept>
+#include <cmath>
 
 Black::Black(double volatility,unsigned long nstate)
  : MCEngine(nstate)

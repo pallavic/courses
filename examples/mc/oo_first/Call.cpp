@@ -8,7 +8,8 @@
 
 #include "Call.h"
 #include "MCEngine.h"
-#include<stdexcept>
+#include <algorithm>
+#include <stdexcept>
 
 Call::Call(double strike,double maturity)
 {

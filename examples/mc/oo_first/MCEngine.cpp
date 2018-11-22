@@ -8,8 +8,9 @@
 
 #include "MCEngine.h"
 #include "Payoff.h"
-#include<cmath>
-#include<stdexcept>
+#include <algorithm>
+#include <cmath>
+#include <stdexcept>
 
 MCEngine::MCEngine(unsigned long nstate)
 {
